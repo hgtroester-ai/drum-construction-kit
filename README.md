@@ -167,20 +167,10 @@ No separate JavaScript development environment or SDK installation is required t
 
 For installation and source information, see [Sources & Licenses](https://github.com/hgtroester-ai/hgt-ableton-extensions/tree/main/Documentation).
 
-**Ableton Extension (.ablx)**
-
-The ready-to-install application for Ableton Live.
-
-**Complete Source Code (.zip)**
-
-The complete project source code.
-
-**[Download the latest release](../../releases/latest)**
-
 Check GitHub Releases for version numbers, updates and release notes.
 
 ---
-## Sources & Licenses
+## 6. Sources & Licenses
 
 For information about musical references, technical resources, project assets and third-party products, please see the central HGT documentation.
 
@@ -190,8 +180,7 @@ For information about musical references, technical resources, project assets an
 
   ---
 
-## 6. About HGT
-
+## 7. About HGT
 **The only good system is a sound system.**
 
 Music connects people.
