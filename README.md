@@ -3,15 +3,19 @@
 
 **Build your drum arrangements. Shape your drummer. Create your sound.**
 
-The Drum Construction Kit is a creative drum arrangement tool for Ableton Live. It helps musicians create complete, genre-specific drum arrangements with individual song sections, evolving grooves, dynamic variations, fills and drum solos.
+The Drum Construction Kit is a creative drum arrangement tool for Ableton Live.
 
-Instead of simply repeating static MIDI loops, the Drum Construction Kit provides a structured approach to building musical drum arrangements that develop naturally throughout a song.
+It helps musicians build complete drum arrangements with individual song sections, genre-specific grooves, drummer profiles, dynamic variations and musical development.
 
-![Drum Construction Kit – User Interface](DrumConstructionKit.png)
+Instead of simply repeating static MIDI loops, the Drum Construction Kit provides a structured workflow for creating drum performances that evolve throughout a song.
 
-## Key Features
+![Drum Construction Kit – Full Interface](./DrumConstructionKit.png)
 
-### 1. Genre Selection
+---
+
+## 1. Key Features
+
+### Genre Selection
 
 Choose from eight musical styles:
 
@@ -24,34 +28,28 @@ Choose from eight musical styles:
 - Funk
 - Hip-Hop
 
-Each genre provides its own musical characteristics and drum-playing approach.
+### Arrangement Settings
 
-### 2. Arrangement Settings
-
-Control the overall development of your drum arrangement:
-
-- **Tempo (BPM):** Set the desired song tempo.
+- **Tempo (BPM):** Set the song tempo.
 - **Variation Strength:** Choose between subtle and bold variations.
-- **Fill Repeat Control:** Avoid repetitive fill patterns.
-- **Refresh Arrangement:** Generate a new arrangement variation.
+- **Fill Repeat Control:** Control the repetition of fill patterns.
+- **Refresh Arrangement:** Generate a refreshed arrangement with new variation seeds.
 
-### 3. Drummer Style Engine
+### Drummer Style Engine
 
 Shape the personality and playing character of your drummer.
 
 - **Drummer Profiles:** Select different playing styles and musical characters.
-- **Style Influence:** Control how strongly the selected drummer profile influences the performance.
-- **Dynamic Development:** Adjust how expressively the performance develops.
+- **Style Influence:** Control the influence of the selected drummer profile.
+- **Dynamic Development:** Adjust the expressive development of the performance.
 - **Cymbal Intelligence:** Influence cymbal playing and musical detail.
-- **Groove Variation:** Control the amount of groove variation throughout the arrangement.
+- **Groove Variation:** Control the amount of groove variation.
 
-The result is a more individual and expressive drum performance.
-
-### 4. Edit Song Sections
+### Edit Song Sections
 
 Build your arrangement section by section.
 
-Each song section can have its own settings:
+Each section can have its own settings:
 
 - Section Genre
 - Section Drummer
@@ -59,55 +57,46 @@ Each song section can have its own settings:
 - Intensity
 - Variation
 
-Create arrangements using different song sections, including:
+Create and edit song sections such as Intro, Verse, Chorus and Bridge.
 
-- Intro
-- Verse
-- Chorus
-- Bridge
-- Other individual sections
+Genre and drummer settings can be inherited from the main arrangement or assigned individually to each section.
 
-Genre and drummer settings can be inherited from the main arrangement or individually assigned to each section.
-
-This allows different musical characters and levels of intensity throughout a song.
-
-### 5. Fill & Variation Management
+### Fill & Variation Management
 
 Create musical development instead of endlessly repeating the same drum pattern.
 
-The arrangement engine supports changing patterns, different variation strengths and fill repeat control.
+- Control fill repetition.
+- Introduce changing drum variations.
+- Develop different performances across song sections.
+- Create transitions between musical sections.
 
-Fills and variations help create transitions and maintain musical interest throughout longer song sections.
+### Solo Engine
 
-### 6. Solo Engine
+Create genre-specific drum solos with different playing characters, phrasing approaches and musical expressions.
 
-Create genre-specific drum solos with different playing characters and phrasing approaches.
+### Audio Preview
 
-The Solo Engine is designed to expand the creative possibilities beyond conventional drum grooves and fills.
-
-### 7. Audio Preview
-
-Listen to your arrangement before creating the MIDI clips.
+Listen to your arrangement before creating MIDI clips.
 
 - Preview arrangement
 - Stop playback
 - Adjustable preview volume
 
-This allows you to check the musical result before transferring it into your Ableton Live project.
+### MIDI Clip Creation
 
-### 8. MIDI Clip Creation
+Generate individual MIDI clips for your song sections.
 
-Once your arrangement is ready, create individual MIDI clips for the song sections.
+The generated clips are arranged vertically underneath each other in a single Ableton Live track, allowing you to work with the song structure and use Ableton Live Follow Actions.
 
-The generated clips can be used directly in Ableton Live and further edited to suit your production.
+The MIDI clips can be further edited and adapted to your production.
 
 ---
 
-## How to Use
+## 2. How to Use
 
 **Step 1 – Select a Genre**
 
-Choose one of the available musical styles from the left-hand menu.
+Choose one of the eight available musical styles.
 
 **Step 2 – Set Arrangement Parameters**
 
@@ -119,39 +108,75 @@ Select a Drummer Profile and adjust Style Influence, Dynamic Development, Cymbal
 
 **Step 4 – Build Your Song Structure**
 
-Edit individual song sections. Set their genre, drummer, bar length, intensity and variation.
+Edit the individual song sections. Set their genre, drummer, bar length, intensity and variation.
 
 **Step 5 – Preview Your Arrangement**
 
-Use Audio Preview to listen to the arrangement and adjust the settings if necessary.
+Listen to your arrangement and adjust the parameters.
 
 **Step 6 – Create MIDI Clips**
 
-Generate the individual MIDI clips and continue working with them in Ableton Live.
+Generate the individual MIDI clips and continue working with them directly in Ableton Live.
 
 ---
 
-## Compatibility & Technology
+## 3. Installation & Requirements
 
-- Developed for Ableton Live.
-- Requires Ableton Live 12.4.5 or later.
-- Built with the Ableton Live JavaScript SDK.
-- Currently testing with Ableton Live 13 Beta.
+### System Requirements
+
+- Ableton Live Suite Beta 12.4.5 or later.
+- macOS or Windows systems supported by Ableton Live.
+- Ableton Live JavaScript Extensions support.
+
+**Important:** Ableton Extensions are not available in Live Standard, Intro or Lite.
+
+### Installation
+
+1. Download the latest `.ablx` file from GitHub Releases.
+2. Open Ableton Live.
+3. Navigate to **Settings / Preferences → Extensions**.
+4. Select **Install Extension** and choose the downloaded `.ablx` file. Alternatively, drag the `.ablx` file onto the Extensions settings page.
+5. Restart Ableton Live if required.
+
+### Updates
+
+1. Visit the GitHub Releases section.
+2. Download the latest `.ablx` package.
+3. Install the updated extension through Live's Extensions settings.
+4. Restart Live if required.
 
 ---
 
-## Downloads
+## 4. Compatibility & Technology
 
-Available downloads:
+- Built with the Ableton Live JavaScript Extensions SDK.
+- Requires Ableton Live Suite with Extensions support, version 12.4.5 or later.
+- Currently tested with Ableton Live 13 Beta.
+- Available as an installable Ableton Extension (`.ablx`).
 
-- Installable Ableton Extension (`.ablx`)
-- Complete source code (`.zip`)
-
-See the Releases section for the latest version and download files.
+No separate JavaScript development environment or SDK installation is required to use the pre-built `.ablx` package.
 
 ---
 
-## About HGT
+## 5. Downloads
+
+Two download options will be provided:
+
+**Ableton Extension (.ablx)**
+
+The ready-to-install application for Ableton Live.
+
+**Complete Source Code (.zip)**
+
+The complete project source code.
+
+**[Download the latest release](../../releases/latest)**
+
+Check GitHub Releases for version numbers, updates and release notes.
+
+---
+
+## 6. About HGT
 
 **The only good system is a sound system.**
 
