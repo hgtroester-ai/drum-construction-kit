@@ -160,7 +160,12 @@ No separate JavaScript development environment or SDK installation is required t
 
 ## 5. Downloads
 
-Two download options will be provided:
+**Latest release: Drum Construction Kit 0.5.0**
+
+- [Download installable Ableton Extension (.ablx)](https://github.com/hgtroester-ai/drum-construction-kit/releases/download/v0.5.0/Drum_Baukasten_0.5.0.ablx)
+- [Download complete source code (.zip)](https://github.com/hgtroester-ai/drum-construction-kit/releases/download/v0.5.0/Drum_Baukasten_0.5.0_Source.zip)
+
+For installation and source information, see [Sources & Licenses](https://github.com/hgtroester-ai/hgt-ableton-extensions/tree/main/Documentation).
 
 **Ableton Extension (.ablx)**
 
