@@ -175,6 +175,15 @@ The complete project source code.
 Check GitHub Releases for version numbers, updates and release notes.
 
 ---
+## Sources & Licenses
+
+For information about musical references, technical resources, project assets and third-party products, please see the central HGT documentation.
+
+- [Sources & Documentation](https://github.com/hgtroester-ai/hgt-ableton-extensions/tree/main/Documentation)
+- [Sources — English](https://github.com/hgtroester-ai/hgt-ableton-extensions/blob/main/Documentation/SOURCES.md)
+- [Quellen — Deutsch](https://github.com/hgtroester-ai/hgt-ableton-extensions/blob/main/Documentation/SOURCES_DE.md)
+
+  ---
 
 ## 6. About HGT
 
