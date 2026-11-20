@@ -166,7 +166,7 @@ The public source archive does not redistribute the Ableton SDK or CLI as standa
 
 ### Audio Preview — Phazite Sounds
 
-The Genre Converter 9.6.2 preview uses **37 embedded MP3 sound payloads derived from Phazite Sounds**, documented under the **CC0 1.0 Universal** dedication.
+The Genre Converter 9.6.3 preview uses **37 embedded MP3 sound payloads derived from Phazite Sounds**, documented under the **CC0 1.0 Universal** dedication.
 
 - **Sound source:** [Phazite Sounds](https://github.com/august-byrne/phazite-sounds)
 - **License:** [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)
@@ -207,14 +207,14 @@ For the central documentation covering all three HGT Ableton Extensions:
 
 ## 6. Downloads
 
-**Latest release: Genre Converter 9.6.2**
+**Latest release: Genre Converter 9.6.3**
 
 - [Genre Converter releases on GitHub](https://github.com/hgtroester-ai/genre-converter/releases)
 
 The release page provides:
 
-- `Genre_Konverter_9.6.2.ablx` — Installable Ableton Extension
-- `Genre_Konverter_9.6.2_source.zip` — Complete source code
+- `Genre_Konverter_9.6.3.ablx` — Installable Ableton Extension
+- `Genre_Konverter_9.6.3_source.zip` — Complete source code
 
 Check GitHub Releases for version numbers, updates and release notes.
 
