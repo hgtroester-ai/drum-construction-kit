@@ -1,126 +1,126 @@
-# Genre Converter
+# Drum Construction Kit
 ### by HGT · Supported with AI
 
-**Build complete drum arrangements. Shape the groove. Give every song its own development.**
+**Build your drum arrangements. Shape your drummer. Create your sound.**
+
+The Drum Construction Kit is a creative drum arrangement tool for Ableton Live.
+
+It helps musicians build complete drum arrangements with individual song sections, genre-specific grooves, drummer profiles, dynamic variations and musical development.
+
+Instead of simply repeating static MIDI loops, the Drum Construction Kit provides a structured workflow for creating drum performances that evolve throughout a song.
 
 ![Drum Construction Kit – Full Interface](./DrumConstructionKit.png)
-
-Genre Converter is an independent Ableton Live extension for creating genre-based MIDI drum arrangements. It combines genre-specific groove engines, drummer profiles, fills, song-section development and arrangement-level musical dramaturgy.
-
-Instead of relying on a static loop, Genre Converter helps build drum parts that evolve across Intro, Verse, Chorus, Bridge and Outro sections.
 
 ---
 
 ## 1. Key Features
 
-### Genre-Based Drum Generation
+### Genre Selection
 
-Choose from 25 selectable musical genres and genre variations, including:
+Choose from eight musical styles:
 
-- Classic Rock and Alternative Rock
-- Blues, Jazz and Jazz-Funk
-- Punk and Proto-Punk
-- Funk and New Orleans Funk
-- Reggae and Dub
-- Ska and Two Tone
-- Hip-Hop, Drum & Bass and Jungle
-- DanceBeatz and additional style variations
+- Classic Rock
+- Blues Rock
+- Alternative Rock
+- Punk
+- Reggae
+- Ska
+- Funk
+- Hip-Hop
 
-Each genre uses its own groove vocabulary, rhythmic character and specialized pattern or fill logic.
+### Arrangement Settings
 
-### Drummer Profiles & Performance Feel
+- **Tempo (BPM):** Set the song tempo.
+- **Variation Strength:** Choose between subtle and bold variations.
+- **Fill Repeat Control:** Control the repetition of fill patterns.
+- **Refresh Arrangement:** Generate a refreshed arrangement with new variation seeds.
 
-Shape the playing character of the generated performance.
+### Drummer Style Engine
 
-- **Drummer Profiles:** Choose genre-oriented drummer characters.
-- **Performance Feel / Pocket:** Adjust the amount of human timing nuance.
-- **Swing:** Apply the genre's supported 8th- or 16th-note swing feel.
-- **Groove Variation:** Control variation within the generated groove.
-- **Velocity Dynamics:** Shape accents, ghost notes and performance expression.
+Shape the personality and playing character of your drummer.
 
-### Song Sections & Arrangement
+- **Drummer Profiles:** Select different playing styles and musical characters.
+- **Style Influence:** Control the influence of the selected drummer profile.
+- **Dynamic Development:** Adjust the expressive development of the performance.
+- **Cymbal Intelligence:** Influence cymbal playing and musical detail.
+- **Groove Variation:** Control the amount of groove variation.
 
-Build a complete drum arrangement with individual song sections.
+### Edit Song Sections
 
-- Intro
-- Verse
-- Chorus
-- Bridge
-- Outro
+Build your arrangement section by section.
 
-Sections can have their own musical settings and development. Genre and drummer character can shape the performance across the arrangement.
+Each section can have its own settings:
 
-### First / Second / Final Pass
+- Section Genre
+- Section Drummer
+- Bar Length
+- Intensity
+- Variation
 
-Create subtle development between repeated song sections.
+Create and edit song sections such as Intro, Verse, Chorus and Bridge.
 
-The pass intelligence can make restrained changes between the First, Second and Final Pass while retaining the identity of the original groove. Section-aware variation helps repeated verses or choruses feel related without being identical.
+Genre and drummer settings can be inherited from the main arrangement or assigned individually to each section.
 
-### Fill Engine
+### Fill & Variation Management
 
-Generate genre-aware fills and transitions.
+Create musical development instead of endlessly repeating the same drum pattern.
 
-- Fills can respond to genre, section and repetition context.
-- Specialized fill logic supports styles such as Funk, Punk, Jazz, Reggae, Ska and Jungle.
-- Fill intensity and variation controls shape the character of transitions.
-- Phrase-aware placement supports musical section endings and transitions.
+- Control fill repetition.
+- Introduce changing drum variations.
+- Develop different performances across song sections.
+- Create transitions between musical sections.
 
-### Song Dramaturgy
+### Solo Engine
 
-Shape the energy curve of the arrangement with four musical arc presets:
-
-- **Classic Build**
-- **Slow Burn**
-- **Drop & Return**
-- **Cinematic Rise**
-
-Dramaturgy Strength blends the selected arc with the established section-energy behaviour. Next Section can be set automatically or directed to a chosen section or Song End. Transition shaping works on existing notes and respects lane locks.
-
-### MIDI Map & Lane Controls
-
-Use the MIDI mapping options to match the generated drum notes to the destination instrument. Lane locks protect selected drum lanes from unwanted changes during supported generation and refinement operations.
-
-Third-party product names used in MIDI mapping identify note assignments only. They do not indicate that audio recordings, samples, presets or software from those manufacturers are included.
+Create genre-specific drum solos with different playing characters, phrasing approaches and musical expressions.
 
 ### Audio Preview
 
-Audition the generated drum performance before using it in your Ableton Live arrangement.
+Listen to your arrangement before creating MIDI clips.
 
-The preview engine uses the same performance transformation principles as the generated MIDI, so groove timing and velocity expression are intended to correspond to the MIDI result.
+- Preview arrangement
+- Stop playback
+- Adjustable preview volume
 
-- Preview playback and Stop control
-- Preview mixer and lane routing
-- Stereo panning and level controls
-- Velocity-layer playback
-- Preview stability and level protection
+### MIDI Clip Creation
+
+Generate individual MIDI clips for your song sections.
+
+The generated clips are arranged vertically underneath each other in a single Ableton Live track, allowing you to work with the song structure and use Ableton Live Follow Actions.
+
+**Important — Prepare at least 8 empty clip slots**
+
+Before creating MIDI clips, make sure that the target MIDI track in Ableton Live has at least **8 consecutive empty clip slots** available. The Drum Construction Kit uses these slots to place the generated section clips vertically, one below another. Existing clips or other content in the required slots may prevent the arrangement from being written.
+
+The MIDI clips can be further edited and adapted to your production.
 
 ---
 
 ## 2. How to Use
 
-**Step 1 – Choose a Genre**
+**Step 1 – Select a Genre**
 
-Select the musical style that provides the foundation for your drum arrangement.
+Choose one of the eight available musical styles.
 
-**Step 2 – Set the Tempo and Groove**
+**Step 2 – Set Arrangement Parameters**
 
-Adjust BPM, Performance Feel / Pocket, Swing and Groove Variation to shape the basic performance.
+Define the tempo, variation strength and fill repeat behaviour.
 
-**Step 3 – Choose a Drummer Character**
+**Step 3 – Choose Your Drummer**
 
-Select a suitable Drummer Profile and adjust the performance settings.
+Select a Drummer Profile and adjust Style Influence, Dynamic Development, Cymbal Intelligence and Groove Variation.
 
-**Step 4 – Shape the Song Sections**
+**Step 4 – Build Your Song Structure**
 
-Work with Intro, Verse, Chorus, Bridge and Outro. Set the section development and pass behaviour.
+Edit the individual song sections. Set their genre, drummer, bar length, intensity and variation.
 
-**Step 5 – Configure Fills and Song Dramaturgy**
+**Step 5 – Preview Your Arrangement**
 
-Choose fill behaviour and, if desired, a Song Arc preset and Next Section transition.
+Listen to your arrangement and adjust the parameters.
 
-**Step 6 – Preview and Create MIDI**
+**Step 6 – Create MIDI Clips**
 
-Audition the result, refine the settings and generate the MIDI arrangement for further editing in Ableton Live.
+Generate the individual MIDI clips and continue working with them directly in Ableton Live.
 
 ---
 
@@ -128,11 +128,11 @@ Audition the result, refine the settings and generate the MIDI arrangement for f
 
 ### System Requirements
 
-- Ableton Live Suite with Extensions support.
-- At release time, Ableton lists Extensions for Live 12 Suite Beta 12.4.5 or later.
-- macOS or Windows systems supported by the corresponding Ableton Live version.
+- Ableton Live Suite Beta 12.4.5 or later.
+- macOS or Windows systems supported by Ableton Live.
+- Ableton Live JavaScript Extensions support.
 
-**Important:** Ableton Extensions are not available in Live Standard, Intro or Lite. Availability and compatibility depend on Ableton's current Extensions support and beta programme.
+**Important:** Ableton Extensions are not available in Live Standard, Intro or Lite.
 
 ### Installation
 
@@ -140,7 +140,7 @@ Audition the result, refine the settings and generate the MIDI arrangement for f
 2. Open Ableton Live.
 3. Navigate to **Settings / Preferences → Extensions**.
 4. Select **Install Extension** and choose the downloaded `.ablx` file. Alternatively, drag the `.ablx` file onto the Extensions settings page.
-5. Restart Live if required.
+5. Restart Ableton Live if required.
 
 ### Updates
 
@@ -153,12 +153,12 @@ Audition the result, refine the settings and generate the MIDI arrangement for f
 
 ## 4. Compatibility & Technology
 
-- Developed for Ableton Live using the Ableton Extensions SDK.
-- Distributed as an installable Ableton Extension (`.ablx`).
-- The SDK runtime is integrated into the `.ablx` application bundle.
-- Rebuilding from source requires the matching Ableton Extensions SDK and CLI obtained separately from Ableton.
+- Built with the Ableton Live JavaScript Extensions SDK.
+- Requires Ableton Live Suite with Extensions support, version 12.4.5 or later.
+- Currently tested with Ableton Live 13 Beta.
+- Available as an installable Ableton Extension (`.ablx`).
 
-The public source archive does not redistribute the Ableton SDK or CLI as standalone packages. No separate JavaScript development environment or SDK installation is required to use the pre-built `.ablx` package.
+No separate JavaScript development environment or SDK installation is required to use the pre-built `.ablx` package.
 
 ---
 
@@ -166,36 +166,39 @@ The public source archive does not redistribute the Ableton SDK or CLI as standa
 
 ### Audio Preview — Phazite Sounds
 
-The Genre Converter 9.6.3 preview uses **37 embedded MP3 sound payloads derived from Phazite Sounds**, documented under the **CC0 1.0 Universal** dedication.
+The audio preview in Drum Construction Kit 0.8.0 uses **37 embedded MP3 sound assets from Phazite Sounds**, documented under the **CC0 1.0 Universal** dedication.
 
 - **Sound source:** [Phazite Sounds](https://github.com/august-byrne/phazite-sounds)
 - **License:** [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)
 
 The sound set contains four velocity layers each for Kick, Snare, Rim / Side Stick, Low Tom, Mid Tom, High Tom, Closed Hi-Hat, Open Hi-Hat and Ride, plus one dedicated long-decay Crash one-shot.
 
-MIDI velocity selects one of four recorded layers: 1–31, 32–63, 64–95 and 96–127. The 37 MP3 payloads are embedded in the extension. Loose duplicate MP3 files and the original WAV/FLAC source recordings are not included in the public source archive.
+The documented MIDI velocity bands are 1–31, 32–63, 64–95 and 96–127. The audio assets are embedded in the extension; the original WAV/FLAC source recordings are not included as loose files.
 
-HGT names Phazite Sounds as the source for transparency. Asset provenance and SHA-256 checksums are recorded in `SOUND-ASSETS.md` and `SOUND-ASSET-MANIFEST.json`.
+HGT names Phazite Sounds as the source for transparency. The sound asset provenance, payload sizes and SHA-256 hashes are recorded in `SOUND-ASSETS.md` and `SOUND-ASSET-MANIFEST.json` in the source package.
+
+### Artwork
+
+The HGT banner, logo and visual elements are original artwork created by HGT. Their geometric visual language is inspired by Piet Mondrian; they are not reproductions of Mondrian artworks.
 
 ### MIDI Mapping Compatibility
 
-Toontrack / EZdrummer, Native Instruments Battery / Kontakt and Korg names may appear as MIDI mapping or compatibility references. These identify MIDI note assignments only. No audio recordings, samples, presets or software from these manufacturers are included. Such references do not imply endorsement, partnership or affiliation.
+Selectable third-party drum layouts, including Toontrack/EZdrummer where available, refer to MIDI note mapping only. They identify the note assignments used for drum instruments. No Toontrack/EZdrummer audio recordings, samples, presets or software are included.
+
+Such product names are used solely to identify technical compatibility and do not imply endorsement, partnership or affiliation.
 
 ### Project and Third-Party Licenses
 
-The HGT Free Music Creator License 1.0 applies only to original Genre Converter project material owned or controlled by HGT.
-
-The license permits free use of the unmodified software for personal, educational, professional and commercial music production. Music created with the software may be edited, released and monetized. Free redistribution of the unmodified official release is permitted with the license and notices retained. Paid redistribution and public distribution of modified or derivative software versions require prior written permission from the relevant rights holder.
-
-The HGT project license does not replace or change the separate CC0 1.0 dedication for the Phazite sound assets or the Ableton Extensions SDK license.
+The HGT License 1.0 applies only to original Drum Construction Kit project material owned or controlled by HGT. It does not replace or change the separate CC0 1.0 dedication for the Phazite sound assets or the license terms for Ableton Extensions SDK components.
 
 For detailed information, see the files included in the source package:
 
-- `LICENSE.md` — HGT Free Music Creator License 1.0
-- `THIRD-PARTY-NOTICES.md` — Ableton SDK, audio assets and trademark notices
+- `LICENSE.md` — HGT License 1.0
+- `THIRD-PARTY-NOTICES.md` — third-party components, sound assets and trademark notices
+- `ABLETON-EXTENSIONS-SDK-LICENSE.md` — Ableton Extensions SDK license text
 - `SOUND-ASSETS.md` — Phazite Sounds provenance and audio asset details
 - `SOUND-ASSET-MANIFEST.json` — embedded audio payload hashes and byte lengths
-- `RELEASE-NOTES-9.6.2.md` — release-specific changes and verification limits
+- `COPYRIGHT.md` — project credits and copyright information
 
 For the central documentation covering all three HGT Ableton Extensions:
 
@@ -207,16 +210,12 @@ For the central documentation covering all three HGT Ableton Extensions:
 
 ## 6. Downloads
 
-**Latest release: Genre Converter 9.6.3**
+**Latest release: Drum Construction Kit 0.8.0**
 
-- [Genre Converter releases on GitHub](https://github.com/hgtroester-ai/genre-converter/releases)
+- [Download installable Ableton Extension (.ablx)](https://github.com/hgtroester-ai/drum-construction-kit/releases/download/v0.8.0/Drum_Baukasten_0.8.0.ablx)
+- [Download complete source code (.zip)](https://github.com/hgtroester-ai/drum-construction-kit/releases/download/v0.8.0/Drum_Baukasten_0.8.0_Source.zip)
 
-The release page provides:
-
-- `Genre_Konverter_9.6.3.ablx` — Installable Ableton Extension
-- `Genre_Konverter_9.6.3_source.zip` — Complete source code
-
-Check GitHub Releases for version numbers, updates and release notes.
+Check [GitHub Releases](https://github.com/hgtroester-ai/drum-construction-kit/releases) for version numbers, updates and release notes.
 
 ---
 
