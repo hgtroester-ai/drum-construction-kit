@@ -166,7 +166,7 @@ No separate JavaScript development environment or SDK installation is required t
 
 ### Audio Preview — Phazite Sounds
 
-The audio preview in Drum Construction Kit 0.7.0 uses **37 embedded MP3 sound assets from Phazite Sounds**, documented under the **CC0 1.0 Universal** dedication.
+The audio preview in Drum Construction Kit 0.8.0 uses **37 embedded MP3 sound assets from Phazite Sounds**, documented under the **CC0 1.0 Universal** dedication.
 
 - **Sound source:** [Phazite Sounds](https://github.com/august-byrne/phazite-sounds)
 - **License:** [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)
@@ -210,10 +210,10 @@ For the central documentation covering all three HGT Ableton Extensions:
 
 ## 6. Downloads
 
-**Latest release: Drum Construction Kit 0.7.0**
+**Latest release: Drum Construction Kit 0.8.0**
 
-- [Download installable Ableton Extension (.ablx)](https://github.com/hgtroester-ai/drum-construction-kit/releases/download/v0.7.0/Drum_Baukasten_0.7.0.ablx)
-- [Download complete source code (.zip)](https://github.com/hgtroester-ai/drum-construction-kit/releases/download/v0.7.0/Drum_Baukasten_0.7.0_Source.zip)
+- [Download installable Ableton Extension (.ablx)](https://github.com/hgtroester-ai/drum-construction-kit/releases/download/v0.8.0/Drum_Baukasten_0.8.0.ablx)
+- [Download complete source code (.zip)](https://github.com/hgtroester-ai/drum-construction-kit/releases/download/v0.8.0/Drum_Baukasten_0.8.0_Source.zip)
 
 Check [GitHub Releases](https://github.com/hgtroester-ai/drum-construction-kit/releases) for version numbers, updates and release notes.
 
