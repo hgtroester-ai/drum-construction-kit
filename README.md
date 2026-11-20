@@ -88,6 +88,10 @@ Generate individual MIDI clips for your song sections.
 
 The generated clips are arranged vertically underneath each other in a single Ableton Live track, allowing you to work with the song structure and use Ableton Live Follow Actions.
 
+**Important — Prepare at least 8 empty clip slots**
+
+Before creating MIDI clips, make sure that the target MIDI track in Ableton Live has at least **8 consecutive empty clip slots** available. The Drum Construction Kit uses these slots to place the generated section clips vertically, one below another. Existing clips or other content in the required slots may prevent the arrangement from being written.
+
 The MIDI clips can be further edited and adapted to your production.
 
 ---
