@@ -158,29 +158,65 @@ No separate JavaScript development environment or SDK installation is required t
 
 ---
 
-## 5. Downloads
+## 5. Audio Assets, Sources & Licenses
 
-**Latest release: Drum Construction Kit 0.5.0**
+### Audio Preview — Phazite Sounds
 
-- [Download installable Ableton Extension (.ablx)](https://github.com/hgtroester-ai/drum-construction-kit/releases/download/v0.5.0/Drum_Baukasten_0.5.0.ablx)
-- [Download complete source code (.zip)](https://github.com/hgtroester-ai/drum-construction-kit/releases/download/v0.5.0/Drum_Baukasten_0.5.0_Source.zip)
+The audio preview in Drum Construction Kit 0.7.0 uses **37 embedded MP3 sound assets from Phazite Sounds**, documented under the **CC0 1.0 Universal** dedication.
 
-For installation and source information, see [Sources & Licenses](https://github.com/hgtroester-ai/hgt-ableton-extensions/tree/main/Documentation).
+- **Sound source:** [Phazite Sounds](https://github.com/august-byrne/phazite-sounds)
+- **License:** [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)
 
-Check GitHub Releases for version numbers, updates and release notes.
+The sound set contains four velocity layers each for Kick, Snare, Rim / Side Stick, Low Tom, Mid Tom, High Tom, Closed Hi-Hat, Open Hi-Hat and Ride, plus one dedicated long-decay Crash one-shot.
 
----
-## 6. Sources & Licenses
+The documented MIDI velocity bands are 1–31, 32–63, 64–95 and 96–127. The audio assets are embedded in the extension; the original WAV/FLAC source recordings are not included as loose files.
 
-For information about musical references, technical resources, project assets and third-party products, please see the central HGT documentation.
+HGT names Phazite Sounds as the source for transparency. The sound asset provenance, payload sizes and SHA-256 hashes are recorded in `SOUND-ASSETS.md` and `SOUND-ASSET-MANIFEST.json` in the source package.
+
+### Artwork
+
+The HGT banner, logo and visual elements are original artwork created by HGT. Their geometric visual language is inspired by Piet Mondrian; they are not reproductions of Mondrian artworks.
+
+### MIDI Mapping Compatibility
+
+Selectable third-party drum layouts, including Toontrack/EZdrummer where available, refer to MIDI note mapping only. They identify the note assignments used for drum instruments. No Toontrack/EZdrummer audio recordings, samples, presets or software are included.
+
+Such product names are used solely to identify technical compatibility and do not imply endorsement, partnership or affiliation.
+
+### Project and Third-Party Licenses
+
+The HGT License 1.0 applies only to original Drum Construction Kit project material owned or controlled by HGT. It does not replace or change the separate CC0 1.0 dedication for the Phazite sound assets or the license terms for Ableton Extensions SDK components.
+
+For detailed information, see the files included in the source package:
+
+- `LICENSE.md` — HGT License 1.0
+- `THIRD-PARTY-NOTICES.md` — third-party components, sound assets and trademark notices
+- `ABLETON-EXTENSIONS-SDK-LICENSE.md` — Ableton Extensions SDK license text
+- `SOUND-ASSETS.md` — Phazite Sounds provenance and audio asset details
+- `SOUND-ASSET-MANIFEST.json` — embedded audio payload hashes and byte lengths
+- `COPYRIGHT.md` — project credits and copyright information
+
+For the central documentation covering all three HGT Ableton Extensions:
 
 - [Sources & Documentation](https://github.com/hgtroester-ai/hgt-ableton-extensions/tree/main/Documentation)
 - [Sources — English](https://github.com/hgtroester-ai/hgt-ableton-extensions/blob/main/Documentation/SOURCES.md)
 - [Quellen — Deutsch](https://github.com/hgtroester-ai/hgt-ableton-extensions/blob/main/Documentation/SOURCES_DE.md)
 
-  ---
+---
+
+## 6. Downloads
+
+**Latest release: Drum Construction Kit 0.7.0**
+
+- [Download installable Ableton Extension (.ablx)](https://github.com/hgtroester-ai/drum-construction-kit/releases/download/v0.7.0/Drum_Baukasten_0.7.0.ablx)
+- [Download complete source code (.zip)](https://github.com/hgtroester-ai/drum-construction-kit/releases/download/v0.7.0/Drum_Baukasten_0.7.0_Source.zip)
+
+Check [GitHub Releases](https://github.com/hgtroester-ai/drum-construction-kit/releases) for version numbers, updates and release notes.
+
+---
 
 ## 7. About HGT
+
 **The only good system is a sound system.**
 
 Music connects people.
