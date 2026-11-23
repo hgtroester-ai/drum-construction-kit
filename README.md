@@ -215,6 +215,7 @@ For the central documentation covering all three HGT Ableton Extensions:
 
 ---
 
+
 ## 6. Use and Responsibility
 
 This extension is developed by HGT on a voluntary basis and provided free of charge.
