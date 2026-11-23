@@ -198,14 +198,14 @@ Such product names are used solely to identify technical compatibility and do no
 
 The HGT License 1.0 applies only to original Drum Construction Kit project material owned or controlled by HGT. It does not replace or change the separate CC0 1.0 dedication for the Phazite sound assets or the license terms for Ableton Extensions SDK components.
 
-For detailed information, see the files included in the source package:
+For detailed information, see the individual documentation files:
 
-- `LICENSE.md` — HGT License 1.0
-- `THIRD-PARTY-NOTICES.md` — third-party components, sound assets and trademark notices
-- `ABLETON-EXTENSIONS-SDK-LICENSE.md` — Ableton Extensions SDK license text
-- `SOUND-ASSETS.md` — Phazite Sounds provenance and audio asset details
-- `SOUND-ASSET-MANIFEST.json` — embedded audio payload hashes and byte lengths
-- `COPYRIGHT.md` — project credits and copyright information
+- [LICENSE.md](Documentation/LICENSE.md) — HGT License 1.0
+- [THIRD-PARTY-NOTICES.md](Documentation/THIRD-PARTY-NOTICES.md) — third-party components and notices
+- [ABLETON-EXTENSIONS-SDK-LICENSE.md](Documentation/ABLETON-EXTENSIONS-SDK-LICENSE.md) — Ableton SDK license
+- [SOUND-ASSETS.md](Documentation/SOUND-ASSETS.md) — sound sources and licensing
+- [SOUND-ASSET-MANIFEST.json](Documentation/SOUND-ASSET-MANIFEST.json) — audio file hashes and byte lengths
+- [COPYRIGHT.md](Documentation/COPYRIGHT.md) — project credits and copyright information
 
 For the central documentation covering all three HGT Ableton Extensions:
 
