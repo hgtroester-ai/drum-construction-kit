@@ -1,5 +1,6 @@
 # Drum Construction Kit
-### by HGT · Supported with AI
+
+### by HGT · Developed with AI assistance
 
 **Build your drum arrangements. Shape your drummer. Create your sound.**
 
@@ -185,7 +186,7 @@ HGT names Phazite Sounds as the source for transparency. The sound asset provena
 
 ### Artwork
 
-The HGT banner, logo and visual elements are original artwork created by HGT. Their geometric visual language is inspired by Piet Mondrian; they are not reproductions of Mondrian artworks.
+The HGT banner, logo and visual elements are original artwork created by HGT, with AI assistance based on HGT's own descriptions and creative direction. Their geometric visual language is inspired by Piet Mondrian; they are not reproductions of Mondrian artworks.
 
 ### MIDI Mapping Compatibility
 
