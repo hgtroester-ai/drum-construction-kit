@@ -122,6 +122,12 @@ Listen to your arrangement and adjust the parameters.
 
 Generate the individual MIDI clips and continue working with them directly in Ableton Live.
 
+**Closing the Extension Without Generating MIDI**
+
+If you want to close the extension without generating or inserting MIDI clips, simply click the **Cancel** button.
+
+This closes the extension without creating or transferring any MIDI data to Ableton Live. Existing clips and MIDI content remain unchanged.
+
 ---
 
 ## 3. Installation & Requirements
