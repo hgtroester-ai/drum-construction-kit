@@ -160,12 +160,12 @@ This closes the extension without creating or transferring any MIDI data to Able
 
 ## 4. Compatibility & Technology
 
-- Built with the Ableton Live JavaScript Extensions SDK.
-- Requires Ableton Live Suite with Extensions support, version 12.4.5 or later.
-- Currently tested with Ableton Live 13 Beta.
-- Available as an installable Ableton Extension (`.ablx`).
+- Developed for Ableton Live using the Ableton Extensions SDK.
+- Distributed as an installable Ableton Extension (`.ablx`).
+- The required runtime is included in the extension.
+- Rebuilding from source requires the Ableton Extensions SDK and CLI, available separately from Ableton.
 
-No separate JavaScript development environment or SDK installation is required to use the pre-built `.ablx` package.
+No additional SDK installation is required to use the pre-built `.ablx` package.
 
 ---
 
@@ -173,16 +173,14 @@ No separate JavaScript development environment or SDK installation is required t
 
 ### Audio Preview — Phazite Sounds
 
-The audio preview in Drum Construction Kit 0.8.0 uses **37 embedded MP3 sound assets from Phazite Sounds**, documented under the **CC0 1.0 Universal** dedication.
+The Genre Converter preview uses 37 embedded MP3 sound assets derived from **Phazite Sounds**, declared under the **CC0 1.0 Universal** dedication.
 
 - **Sound source:** [Phazite Sounds](https://github.com/august-byrne/phazite-sounds)
 - **License:** [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)
 
-The sound set contains four velocity layers each for Kick, Snare, Rim / Side Stick, Low Tom, Mid Tom, High Tom, Closed Hi-Hat, Open Hi-Hat and Ride, plus one dedicated long-decay Crash one-shot.
+The sound set includes four velocity layers each for Kick, Snare, Rim / Side Stick, Low Tom, Mid Tom, High Tom, Closed Hi-Hat, Open Hi-Hat and Ride, plus one dedicated Crash sound.
 
-The documented MIDI velocity bands are 1–31, 32–63, 64–95 and 96–127. The audio assets are embedded in the extension; the original WAV/FLAC source recordings are not included as loose files.
-
-HGT names Phazite Sounds as the source for transparency. The sound asset provenance, payload sizes and SHA-256 hashes are recorded in `SOUND-ASSETS.md` and `SOUND-ASSET-MANIFEST.json` in the source package.
+The sounds are embedded in the extension. The original WAV/FLAC recordings are not distributed separately in the source archive.
 
 ### Artwork
 
@@ -190,29 +188,31 @@ The HGT banner, logo and visual elements are original artwork created by HGT, wi
 
 ### MIDI Mapping Compatibility
 
-Selectable third-party drum layouts, including Toontrack/EZdrummer where available, refer to MIDI note mapping only. They identify the note assignments used for drum instruments. No Toontrack/EZdrummer audio recordings, samples, presets or software are included.
-
-Such product names are used solely to identify technical compatibility and do not imply endorsement, partnership or affiliation.
+The names Toontrack / EZdrummer, Native Instruments Battery / Kontakt and Korg are used only to identify MIDI note mappings. No recordings, samples, presets or software from these manufacturers are included.
 
 ### Project and Third-Party Licenses
 
-The HGT License 1.0 applies only to original Drum Construction Kit project material owned or controlled by HGT. It does not replace or change the separate CC0 1.0 dedication for the Phazite sound assets or the license terms for Ableton Extensions SDK components.
+The HGT Free Music Creator License 1.0 applies to original Genre Converter project material owned or controlled by HGT.
 
-For detailed information, see the individual documentation files:
+The unmodified extension can be used free of charge for personal, educational, professional and commercial music production. Music created with it may be edited, released and monetized.
 
-- [LICENSE.md](Documentation/LICENSE.md) — HGT License 1.0
-- [THIRD-PARTY-NOTICES.md](Documentation/THIRD-PARTY-NOTICES.md) — third-party components and notices
-- [ABLETON-EXTENSIONS-SDK-LICENSE.md](Documentation/ABLETON-EXTENSIONS-SDK-LICENSE.md) — Ableton SDK license
-- [SOUND-ASSETS.md](Documentation/SOUND-ASSETS.md) — sound sources and licensing
-- [SOUND-ASSET-MANIFEST.json](Documentation/SOUND-ASSET-MANIFEST.json) — audio file hashes and byte lengths
-- [COPYRIGHT.md](Documentation/COPYRIGHT.md) — project credits and copyright information
+The HGT license is separate from the CC0 dedication for the Phazite sound assets and the Ableton Extensions SDK license.
+
+For complete details, see the documentation included in the source package and available in the repository:
+
+- [LICENSE.md](https://github.com/hgtroester-ai/genre-converter/blob/main/Documentation/LICENSE.md) — HGT Free Music Creator License 1.0
+- [THIRD-PARTY-NOTICES.md](https://github.com/hgtroester-ai/genre-converter/blob/main/Documentation/THIRD-PARTY-NOTICES.md) — third-party components and notices
+- [SOUND-ASSETS.md](https://github.com/hgtroester-ai/genre-converter/blob/main/Documentation/SOUND-ASSETS.md) — sound source and asset details
+- [SOUND-ASSET-MANIFEST.json](https://github.com/hgtroester-ai/genre-converter/blob/main/Documentation/SOUND-ASSET-MANIFEST.json) — sound asset verification data
+- [RELEASE-NOTES-9.6.3.md](https://github.com/hgtroester-ai/genre-converter/blob/main/Documentation/RELEASE-NOTES-9.6.3.md) — release notes
+- [SOUND-PROVENANCE-9.6.3.md](https://github.com/hgtroester-ai/genre-converter/blob/main/Documentation/SOUND-PROVENANCE-9.6.3.md) — sound provenance
+- [LEGAL-RELEASE-CHECKLIST-9.6.3.md](https://github.com/hgtroester-ai/genre-converter/blob/main/Documentation/LEGAL-RELEASE-CHECKLIST-9.6.3.md) — release documentation checklist
 
 For the central documentation covering all three HGT Ableton Extensions:
 
 - [Sources & Documentation](https://github.com/hgtroester-ai/hgt-ableton-extensions/tree/main/Documentation)
 - [Sources — English](https://github.com/hgtroester-ai/hgt-ableton-extensions/blob/main/Documentation/SOURCES.md)
 - [Quellen — Deutsch](https://github.com/hgtroester-ai/hgt-ableton-extensions/blob/main/Documentation/SOURCES_DE.md)
-
 ---
 
 
