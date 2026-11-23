@@ -190,31 +190,31 @@ The HGT banner, logo and visual elements are original artwork created by HGT, wi
 
 The names Toontrack / EZdrummer, Native Instruments Battery / Kontakt and Korg are used only to identify MIDI note mappings. No recordings, samples, presets or software from these manufacturers are included.
 
-### Project and Third-Party Licenses
+## Project and Third-Party Licenses
 
-The HGT Free Music Creator License 1.0 applies to original Genre Converter project material owned or controlled by HGT.
+The HGT Free Music Creator License 1.0 applies to original Drum Construction Kit project material owned or controlled by HGT.
 
-The unmodified extension can be used free of charge for personal, educational, professional and commercial music production. Music created with it may be edited, released and monetized.
+The unmodified extension is provided free of charge. Music and MIDI patterns created with the extension may be used, edited, released and monetized.
 
-The HGT license is separate from the CC0 dedication for the Phazite sound assets and the Ableton Extensions SDK license.
+The HGT project license is separate from third-party licenses, the Ableton Extensions SDK license and the licenses applicable to audio assets.
 
-For complete details, see the documentation included in the source package and available in the repository:
+For complete details, see the documentation included in the source package and available in this repository:
 
-- [LICENSE.md](https://github.com/hgtroester-ai/genre-converter/blob/main/Documentation/LICENSE.md) — HGT Free Music Creator License 1.0
-- [THIRD-PARTY-NOTICES.md](https://github.com/hgtroester-ai/genre-converter/blob/main/Documentation/THIRD-PARTY-NOTICES.md) — third-party components and notices
-- [SOUND-ASSETS.md](https://github.com/hgtroester-ai/genre-converter/blob/main/Documentation/SOUND-ASSETS.md) — sound source and asset details
-- [SOUND-ASSET-MANIFEST.json](https://github.com/hgtroester-ai/genre-converter/blob/main/Documentation/SOUND-ASSET-MANIFEST.json) — sound asset verification data
-- [RELEASE-NOTES-9.6.3.md](https://github.com/hgtroester-ai/genre-converter/blob/main/Documentation/RELEASE-NOTES-9.6.3.md) — release notes
-- [SOUND-PROVENANCE-9.6.3.md](https://github.com/hgtroester-ai/genre-converter/blob/main/Documentation/SOUND-PROVENANCE-9.6.3.md) — sound provenance
-- [LEGAL-RELEASE-CHECKLIST-9.6.3.md](https://github.com/hgtroester-ai/genre-converter/blob/main/Documentation/LEGAL-RELEASE-CHECKLIST-9.6.3.md) — release documentation checklist
+- [LICENSE.md](Documentation/LICENSE.md) – HGT Free Music Creator License 1.0
+- [COPYRIGHT.md](Documentation/COPYRIGHT.md) – copyright information
+- [ABLETON-EXTENSIONS-SDK-LICENSE.md](Documentation/ABLETON-EXTENSIONS-SDK-LICENSE.md) – Ableton Extensions SDK license information
+- [THIRD-PARTY-NOTICES.md](Documentation/THIRD-PARTY-NOTICES.md) – third-party components and notices
+- [SOUND-ASSETS.md](Documentation/SOUND-ASSETS.md) – sound sources and licensing details
+- [SOUND-ASSET-MANIFEST.json](Documentation/SOUND-ASSET-MANIFEST.json) – sound asset verification data
+- [RELEASE-CHECKLIST-0.8.0.md](Documentation/RELEASE-CHECKLIST-0.8.0.md) – release documentation checklist
 
 For the central documentation covering all three HGT Ableton Extensions:
 
 - [Sources & Documentation](https://github.com/hgtroester-ai/hgt-ableton-extensions/tree/main/Documentation)
-- [Sources — English](https://github.com/hgtroester-ai/hgt-ableton-extensions/blob/main/Documentation/SOURCES.md)
-- [Quellen — Deutsch](https://github.com/hgtroester-ai/hgt-ableton-extensions/blob/main/Documentation/SOURCES_DE.md)
----
+- [Sources – English](https://github.com/hgtroester-ai/hgt-ableton-extensions/blob/main/Documentation/SOURCES.md)
+- [Quellen – Deutsch](https://github.com/hgtroester-ai/hgt-ableton-extensions/blob/main/Documentation/SOURCES_DE.md)
 
+---
 
 ## 6. Disclaimer
 
